@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if cat box.json | grep -q '{{hookName}}'; then
+    echo "Running git hook: {{hookName}}"
+    box githooks handle {{hookName}}
+fi

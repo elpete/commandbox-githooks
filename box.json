@@ -1,0 +1,36 @@
+{
+    "name":"CommandBox Git Hooks",
+    "version":"0.0.0",
+    "author":"Eric Peterson",
+    "homepage":"https://github.com/elpete/commandbox-githooks",
+    "documentation":"https://github.com/elpete/commandbox-githooks",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/elpete/commandbox-githooks"
+    },
+    "bugs":"https://github.com/elpete/commandbox-githooks/issues",
+    "slug":"commandbox-githooks",
+    "shortDescription":"Manage your git hooks with CommandBox",
+    "instructions":"https://github.com/elpete/commandbox-githooks",
+    "type":"commandbox-modules",
+    "keywords":[
+        "server",
+        "git",
+        "hooks",
+        "tasks",
+        "testing"
+    ],
+    "scripts":{
+        "postVersion":"package set location='elpete/commandbox-githooks#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && !git push --tags"
+    },
+    "private":false,
+    "license":[
+        {
+            "type":"MIT",
+            "URL":"https://github.com/elpete/commandbox-githooks/blob/master/LICENSE"
+        }
+    ],
+    "location":"elpete/commandbox-githooks#v0.0.0"
+}
