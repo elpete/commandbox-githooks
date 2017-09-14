@@ -18,7 +18,7 @@ Add your scripts to a `githooks` key in the `box.json`:
 {
   "githooks": {
     "preCommit": "testbox run",
-    "preCheckout": [
+    "postCheckout": [
       "install",
       "!npm install",
       "!gulp"
