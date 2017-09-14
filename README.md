@@ -26,3 +26,7 @@ Add your scripts to a `githooks` key in the `box.json`:
   }
 }
 ```
+
+### Example
+
+![commandbox-githooks example](commandbox-githooks.gif)
