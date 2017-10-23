@@ -1,6 +1,6 @@
 {
     "name":"CommandBox Git Hooks",
-    "version":"1.0.0",
+    "version":"1.0.1",
     "author":"Eric Peterson",
     "homepage":"https://github.com/elpete/commandbox-githooks",
     "documentation":"https://github.com/elpete/commandbox-githooks",
@@ -32,5 +32,5 @@
             "URL":"https://github.com/elpete/commandbox-githooks/blob/master/LICENSE"
         }
     ],
-    "location":"elpete/commandbox-githooks#v1.0.0"
+    "location":"elpete/commandbox-githooks#v1.0.1"
 }
