@@ -24,8 +24,8 @@ component {
 
     function onDIComplete() {
         variables.baseDirectory = fileSystemUtil.resolvePath( "" );
-        variables.gitDirectory = variables.baseDirectory & ".git/";
-        variables.hooksDirectory = variables.gitDirectory & "hooks/";
+        variables.gitDirectory = variables.baseDirectory & "/.git/";
+        variables.hooksDirectory = variables.gitDirectory & "/hooks/";
     }
 
     function isGitRepo() {
