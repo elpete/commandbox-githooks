@@ -49,6 +49,9 @@ component {
     }
 
     function install( callback ) {
+        if ( !directoryExists(variables.hooksDirectory) ) {
+            directoryCreate( variables.hooksDirectory );
+        }
         for ( var key in variables.availableHooks ) {
             var hookName = variables.availableHooks[ key ];
             var template = fileRead( expandPath( "/commandbox-githooks/resources/hook-template") );
