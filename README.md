@@ -1,6 +1,6 @@
 # commandbox-githooks
 
-## Manage your git hooks with CommandBox
+## Manage your git hooks with [CommandBox](https://github.com/Ortus-Solutions/commandbox)
 
 ### Installation
 
