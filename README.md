@@ -30,3 +30,5 @@ Add your scripts to a `githooks` key in the `box.json`:
 ### Example
 
 ![commandbox-githooks example](commandbox-githooks.gif)
+
+Note: In order to work correctly, the path to `box` or `box.exe` must be in your system's PATH variable.
